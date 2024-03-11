@@ -9,46 +9,75 @@ img {
     max-width: 100%;
 }
 
-.container-main{
+.container-main {
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
     min-height: 500px;
-
-/* degug */
-background-color: aquamarine;
+    /* degug */
+    background-color: aquamarine;
 }
 
 /************************************************
     UTILITIES
  ************************************************/
- a {
-    text-decoration: none;
-}
 
 .flex {
     display: flex;
 }
 
 
-/* HEADER */
-header{
-    z-index: 9999;
-    min-height: 40px;
-}
-/* ---------header left---------- */
-.header-main-profile{
+/* ************************************************ */
+/* COMMON */
+.container-left,
+.header-main-profile {
     width: 30%;
+}
+
+.conteiner-right,
+.header-user-chat {
+    width: 70%;
+}
+
+
+/* ************************************************ */
+/* --------------- HEADER ------------------------ */
+header {
+    height: 40px;
+}
+
+/* ---------header left---------- */
+.header-main-profile {
     /* debug */
     background-color: lightgray;
-    
     border-right: 1px solid black;
 }
 
 /* ---------header right---------- */
-.header-user-chat{
-    width: 70%;
-      /* debug */
-      background-color: lightgray;
+.header-user-chat {
+    /* debug */
+    background-color: lightgray;
 }
 
+/* ************************************************ */
+/* ------- NOTIFICATIONS LEFT ------- */
+.notifications {
+    height: 50px;
+    background-color: blue;
+}
+
+/* ----- LABEL ----- */
+.find {
+    /* debug */
+    background-color: beige;
+    height: 40px;
+}
+
+.chat-left {
+    width: 100%;
+    overflow: auto;
+    /* debu */
+    height: calc(500px - 130px);
+    padding: 30px;
+    background: peru;
+}

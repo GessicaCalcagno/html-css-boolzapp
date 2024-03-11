@@ -13,6 +13,20 @@
     width: 90%;
 }
 
+/* *********************************************** */
+/* ---- CHAT LEFT -------> */
+.container-left{
+    width: 10%;
+}
+.notifications,
+.find {
+    display: none;
+}
+.chat-left{
+    height: calc(500px - 40px) ;
+}
+
+
 }
 
 
@@ -31,6 +45,12 @@
 /* ---------header right---------- */
 .header-user-chat{
     width: 100%;
+}
+/* *********************************************** */
+/* -- CHAT LEFT -- */
+
+.container-left{
+    display: none;
 }
 
 }
