@@ -34,7 +34,7 @@ img {
     width: 30%;
 }
 
-.conteiner-right,
+.container-right,
 .header-user-chat {
     width: 70%;
 }
@@ -46,14 +46,14 @@ header {
     height: 40px;
 }
 
-/* ---------header left---------- */
+/* Header left */
 .header-main-profile {
     /* debug */
     background-color: lightgray;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(148, 147, 147);
 }
 
-/* ---------header right---------- */
+/*  Header right */
 .header-user-chat {
     /* debug */
     background-color: lightgray;
@@ -66,18 +66,34 @@ header {
     background-color: blue;
 }
 
-/* ----- LABEL ----- */
+/* ----- LABEL LEFT----- */
 .find {
     /* debug */
     background-color: beige;
     height: 40px;
 }
 
+/* ----- CHAT LEFT----- */
 .chat-left {
     width: 100%;
     overflow: auto;
     /* debu */
     height: calc(500px - 130px);
-    padding: 30px;
     background: peru;
+}
+
+/* ----- CHAT RIGHT----- */
+
+.chat-right {
+    overflow: auto;
+    /* debug */   
+   background-color: rgba(137, 43, 226, 0.541);
+   height: 420px;
+}
+
+/* ----- FOOTER (RIGHT)----- */
+
+.footer{
+    height: 40px;
+    background-color: blanchedalmond;
 }

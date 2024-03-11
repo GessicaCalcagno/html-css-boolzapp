@@ -26,6 +26,12 @@
     height: calc(500px - 40px) ;
 }
 
+/* *********************************************** */
+/* -- CHAT RIGHT -- */
+
+.container-right{
+    width: 90%;
+}
 
 }
 
@@ -51,6 +57,13 @@
 
 .container-left{
     display: none;
+}
+
+/* *********************************************** */
+/* -- CHAT RIGHT -- */
+
+.container-right{
+    width: 100%;
 }
 
 }
