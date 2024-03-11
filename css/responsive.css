@@ -1,0 +1,36 @@
+ /********************************************************
+    MEDIA QUERY TABLET
+ **********************************************************/
+ @media screen and (max-width: 768px) {
+
+    /* ---------header left---------- */
+.header-main-profile{
+    width: 10%;
+ }
+   
+/* ---------header right---------- */
+.header-user-chat{
+    width: 90%;
+}
+
+}
+
+
+ /********************************************************
+    MEDIA QUERY MOBILE
+ **********************************************************/
+
+@media screen and (max-width: 480px){
+
+/* ---------header left---------- */
+.header-main-profile{
+    width: 0;
+    border: 0;
+ }
+   
+/* ---------header right---------- */
+.header-user-chat{
+    width: 100%;
+}
+
+}

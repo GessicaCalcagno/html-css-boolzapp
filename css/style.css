@@ -1,0 +1,54 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    min-height: 500px;
+
+/* degug */
+background-color: aquamarine;
+}
+
+/************************************************
+    UTILITIES
+ ************************************************/
+ a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* HEADER */
+header{
+    z-index: 9999;
+    min-height: 40px;
+}
+/* ---------header left---------- */
+.header-main-profile{
+    width: 30%;
+    /* debug */
+    background-color: lightgray;
+    
+    border-right: 1px solid black;
+}
+
+/* ---------header right---------- */
+.header-user-chat{
+    width: 70%;
+      /* debug */
+      background-color: lightgray;
+}
+
