@@ -23,7 +23,6 @@ body {
 /************************************************
         CONTAINER E WRAPPER MAIN
  ************************************************/
-
 .wrapper-main {
     display: flex;
     justify-content: center;
@@ -48,18 +47,6 @@ body {
 
 .flex-column{
     flex-direction: column;
-}
-
-.pdg-20 {
-    padding: 20px;
-}
-
-.pdg-10 {
-    padding: 10px;
-}
-
-.pdg-5 {
-    padding: 5px;
 }
 
 .pdg-right {
@@ -108,8 +95,7 @@ header {
 
 .header-main-profile {
     background-color: var(--header-color);
-    /* debug */
-    border-right: 1px solid rgb(148, 147, 147);
+    border-right: 0.3px solid rgb(188, 187, 187);
 }
 
 .container-profile-left {
@@ -130,9 +116,8 @@ header {
     /* object-fit: cover; */
 }
 
-
-
-/*  ------- Header right --------- */
+/* ----- */
+/*   Header right  */
 .header-user-chat {
     background-color: var(--header-color);
     padding: 5px;
@@ -141,8 +126,6 @@ header {
 .user {
     align-items: center;
 }
-
-
 
 .img-user {
     width: 35px;
@@ -179,7 +162,6 @@ header {
 
 /* ----- LABEL LEFT----- */
 .search {
-    /* debug */
     background-color: #FAFAFA;
     height: 40px;
     padding: 5px;
@@ -223,7 +205,6 @@ header {
 }
 
 /* **************************************************** */
-
 /* ----- CHAT RIGHT----- */
 .chat-right {
     overflow: auto;
@@ -248,9 +229,7 @@ header {
 .message2 {
     background-color: var(--message2);
     position: relative;
-    left: 30%;
-    
-    
+    left: 30%; 
 }
 .sent{
    display: block;
@@ -271,12 +250,6 @@ header {
 .fa-chevron-down{
     color: gray;
 }
-
-
-
-
-
-
 
 
 /* **************************************************** */

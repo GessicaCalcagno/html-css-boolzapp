@@ -6,8 +6,6 @@
      .container-main {
          width: 100%;
          height: 100vh;
-         /* degug */
-         background-color: aquamarine;
      }
 
      /* -------- Header left ---------- */
@@ -15,25 +13,25 @@
          width: 80px;
      }
 
-     .main-profile{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+     .main-profile {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
 
-    .img-main-profile{
-        width: 60%;
+     .img-main-profile {
+         width: 60%;
 
-    }
+     }
 
      /* --------- Header right ---------- */
      .header-user-chat {
          width: calc(100% - 80px);
      }
 
-     .icone-main-profile{
-        display: none;
+     .icone-main-profile {
+         display: none;
      }
 
      /* *********************************************** */
@@ -45,7 +43,7 @@
      .notifications,
      .search,
      .find,
-     .name{
+     .name {
          display: none;
      }
 
@@ -54,15 +52,16 @@
          width: 80px;
      }
 
-     .chat-right{
-        height: calc(100vh - 90px);
+     .chat-right {
+         height: calc(100vh - 90px);
      }
+
      /* *********************************************** */
      /* -- CHAT RIGHT -- */
 
      .container-right {
          width: calc(100% - 80px);
-          
+
      }
 
  }
