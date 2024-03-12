@@ -20,82 +20,97 @@
 
 <body>
     <div class="wrapper-main">
-    <div class="container-main">
-        <!-- ------------------------------------------------ -->
+        <div class="container-main">
+            <!-- ------------------------------------------------ -->
 
-        <!-- HEADER -->
-        <header class="header-container flex">
-            <!-- HEADER SINISTRA -->
-            <div class="header-main-profile container-left">
-                <div class="flex">
-                    <div class="main-profile">
-                        <!-- <img class="img-main-profile" src="./img/avatar_io.jpg" alt=""> -->
+            <!-- HEADER -->
+            <header class="header-container flex">
+                <!-- HEADER SINISTRA -->
+                <div class="header-main-profile container-left">
+                    <div class="container-profile-left">
+                        <div class="main-profile">
+                            <img class="img-main-profile" src="./img/avatar_io.jpg" alt="">
+                        </div>
+                        <div class="icone-main-profile gray">
+                            <i class="fa-solid fa-circle-notch pdg-right"></i>
+                            <i class="fa-solid fa-message pdg-right"></i>
+                            <i class="fa-solid fa-ellipsis-vertical pdg-right"></i>
+                        </div>
                     </div>
-                    <div class="icone-main-profile">
+                </div>
+                <!-- /HEADER SINISTRA -->
+                <!-- ------------------ -->
+
+                <!-- HEADER DESTRA -->
+                <div class="header-user-chat conteiner-right ">
+                    <div class="flex space-btw al-center">
+                        <div class="user flex ">
+                            <div class="user-chat">
+                                <img class="img-user" src="./img/avatar_1.jpg" alt="">
+                            </div>
+                            <div class="name-user">
+                                <h3>Michele</h3>
+                                <span class="last-access gray">Ultimo accesso oggi alle 16:26</span>
+                            </div>
+                        </div>
+
+                        <div class="icone-user gray">
+                            <i class="fa-solid fa-magnifying-glass pdg-right"></i>
+                            <i class="fa-solid fa-paperclip pdg-right"></i>
+                            <i class="fa-solid fa-ellipsis-vertical pdg-right"></i>
+                        </div>
 
                     </div>
                 </div>
-            </div>
-            <!-- /HEADER SINISTRA -->
-            <!-- ------------------ -->
+            </header>
+            <!-- ---------------------------- /HEADER  ------------------------------ -->
+            <main>
+                <!-- CHAT LEFT -->
+                <div class="wrapper-chat flex">
+                    <div class="container-left">
+                        <div class="notifications">
+                            <i class="fa-solid fa-bell-slash "></i>
+                            <div class="text-notifications">
+                                <h4>Ricevi notifiche di nuovi messaggi</h4>
+                                <span class="gray underline">Attiva notifiche desktop</span>
+                            </div>
 
-            <!-- HEADER DESTRA -->
-            <div class="header-user-chat conteiner-right ">
-                <div class="flex">
-                    <div class="img-user-chat">
+                        </div>
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass search-gray"></i>
+                            <label for="find">
+                                <input type="text" id="find" class="find" name="inputText"
+                                    placeholder="Cerca o inizia una nuova chat">
+                            </label>
+                        </div>
+
+                        <div class="chat-left">
+
+                        </div>
 
                     </div>
-                    <div class="name-user">
-                        <h2></h2>
-                        <span class="last-access"></span>
+                    <!-- ------------------------------------------------ -->
+
+                    <!-- CHAT RIGHT -->
+                    <div class="container-right">
+                        <div class="chat-right">
+
+                        </div>
+                        <!-- ----------- -->
+
+                        <!-- FOOTER -->
+                        <div class="footer">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <label for="keyboard"></label>
+                            <input type="text" class="keyboard"  id="keyboard" placeholder="Scrivi un messaggio">
+                        </div>
+
                     </div>
-
-                    <div class="icone-user">
-
-                    </div>
-
                 </div>
-            </div>
-        </header>
-        <!-- ---------------------------- /HEADER  ------------------------------ -->
-        <main>
-            <!-- CHAT LEFT -->
-            <div class="wrapper-chat flex">
-                <div class="container-left">
-                    <div class="notifications">
-
-                    </div>
-                    <div class="find">
-                        <label for="find">
-                            <input type="text" id="find" name="inputText" placeholder="Cerca o inizia una nuova chat">
-                        </label>
-                    </div>
-
-                    <div class="chat-left">
-
-                    </div>
-
-                </div>
-                <!-- ------------------------------------------------ -->
-
-                <!-- CHAT RIGHT -->
-                <div class="container-right">
-                    <div class="chat-right">
-
-                    </div>
-                    <!-- ----------- -->
-
-                    <!-- FOOTER -->
-                    <div class="footer">
-
-                    </div>
-
-                </div>
-            </div>
-            <!-- ---------------------------- END WRAPPER CHAT ----------------------- -->
-        </main>
+                <!-- ---------------------------- END WRAPPER CHAT ----------------------- -->
+            </main>
+        </div>
     </div>
-</div>
 </body>
 
 </html>

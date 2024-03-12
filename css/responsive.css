@@ -12,28 +12,45 @@
 
      /* -------- Header left ---------- */
      .header-main-profile {
-         width: 100px;
+         width: 80px;
      }
+
+     .main-profile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-main-profile{
+        width: 60%;
+
+    }
 
      /* --------- Header right ---------- */
      .header-user-chat {
-         width: calc(100% - 100px);
+         width: calc(100% - 80px);
+     }
+
+     .icone-main-profile{
+        display: none;
      }
 
      /* *********************************************** */
      /* ---- CHAT LEFT -------> */
      .container-left {
-         width: 100px;
+         width: 80px;
      }
 
      .notifications,
+     .search,
      .find {
          display: none;
      }
 
      .chat-left {
          height: calc(100vh - 50px);
-         width: 100px;
+         width: 80px;
      }
 
      .chat-right{
@@ -43,7 +60,7 @@
      /* -- CHAT RIGHT -- */
 
      .container-right {
-         width: calc(100% - 100px);
+         width: calc(100% - 80px);
           
      }
 
