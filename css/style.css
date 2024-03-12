@@ -9,14 +9,15 @@
     --header-color: #EAEAEA;
     --notificatins: #8EDAFC;
     --footer: #F3EEEA;
+    --message2: #D5F9BA;
 }
 
 img {
     max-width: 100%;
 }
 
-body{
-    font-family: Helvetica, sans-serif ;
+body {
+    font-family: Helvetica, sans-serif;
 }
 
 /************************************************
@@ -43,6 +44,10 @@ body{
 .flex {
     display: flex;
     flex-shrink: none;
+}
+
+.flex-column{
+    flex-direction: column;
 }
 
 .pdg-20 {
@@ -72,7 +77,8 @@ body{
 .gray {
     color: gray;
 }
-.underline{
+
+.underline {
     text-decoration: underline;
 }
 
@@ -181,16 +187,18 @@ header {
 
 .find {
     border: 0;
-    padding: 5px;
+    padding: 5px 5px 5px 30px;
     font-size: 1rem;
-    width: 85%;
+    width: 87%;
 }
 
-.search-gray{
+.search-gray {
     width: 28px;
     height: 28px;
     color: gray;
-    
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 /* ----- CHAT LEFT----- */
@@ -209,8 +217,49 @@ header {
     overflow: auto;
     background-image: url(../img/mine.jpg);
     height: calc(90vh - 90px);
+    padding: 50px;
 }
 
+.message1,
+.message2 {
+    border-radius: 10px;
+    width: 60%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.message1 {
+    background-color: white;
+    
+}
+
+.message2 {
+    background-color: var(--message2);
+    position: relative;
+    left: 30%;
+    
+    
+}
+.sent{
+   display: block;
+}
+
+.icone-mex{
+    align-items: center;
+    padding-left: 5px;
+}
+
+.hours{
+    font-size: 0.7rem;
+}
+.received{
+    display: block;
+}
+
+
+
+
+/* **************************************************** */
 /* ----- FOOTER (RIGHT)----- */
 .footer {
     display: flex;
@@ -220,15 +269,15 @@ header {
     background-color: var(--footer);
 }
 
-.keyboard{
+.keyboard {
     border: 0;
     font-size: 1.2rem;
     width: 85%;
     padding: 5px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
-.fa-face-smile{
+.fa-face-smile {
     color: gray;
     font-size: 1.2rem;
     padding-right: 20px;
