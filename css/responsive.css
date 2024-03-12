@@ -3,67 +3,82 @@
  **********************************************************/
  @media screen and (max-width: 768px) {
 
-    /* ---------header left---------- */
-.header-main-profile{
-    width: 10%;
+     .container-main {
+         width: 100%;
+         height: 100vh;
+         /* degug */
+         background-color: aquamarine;
+     }
+
+     /* -------- Header left ---------- */
+     .header-main-profile {
+         width: 100px;
+     }
+
+     /* --------- Header right ---------- */
+     .header-user-chat {
+         width: calc(100% - 100px);
+     }
+
+     /* *********************************************** */
+     /* ---- CHAT LEFT -------> */
+     .container-left {
+         width: 100px;
+     }
+
+     .notifications,
+     .find {
+         display: none;
+     }
+
+     .chat-left {
+         height: calc(100vh - 50px);
+         width: 100px;
+     }
+
+     .chat-right{
+        height: calc(100vh - 90px);
+     }
+     /* *********************************************** */
+     /* -- CHAT RIGHT -- */
+
+     .container-right {
+         width: calc(100% - 100px);
+          
+     }
+
  }
-   
-/* ---------header right---------- */
-.header-user-chat{
-    width: 90%;
-}
-
-/* *********************************************** */
-/* ---- CHAT LEFT -------> */
-.container-left{
-    width: 10%;
-}
-.notifications,
-.find {
-    display: none;
-}
-.chat-left{
-    height: calc(500px - 40px) ;
-}
-
-/* *********************************************** */
-/* -- CHAT RIGHT -- */
-
-.container-right{
-    width: 90%;
-}
-
-}
 
 
  /********************************************************
     MEDIA QUERY MOBILE
  **********************************************************/
 
-@media screen and (max-width: 480px){
+ @media screen and (max-width: 480px) {
 
-/* ---------header left---------- */
-.header-main-profile{
-    width: 0;
-    border: 0;
+     /* --------- Header left ---------- */
+     .header-main-profile {
+         width: 0;
+         border: 0;
+     }
+
+     /* --------- Header right ---------- */
+     .header-user-chat {
+         width: 100%;
+     }
+
+     /* *********************************************** */
+     /* -- CHAT LEFT -- */
+
+     .container-left {
+         display: none;
+     }
+
+     /* *********************************************** */
+     /* -- CHAT RIGHT -- */
+
+     .container-right {
+         width: 100%;
+     }
+
  }
-   
-/* ---------header right---------- */
-.header-user-chat{
-    width: 100%;
-}
-/* *********************************************** */
-/* -- CHAT LEFT -- */
-
-.container-left{
-    display: none;
-}
-
-/* *********************************************** */
-/* -- CHAT RIGHT -- */
-
-.container-right{
-    width: 100%;
-}
-
-}

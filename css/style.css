@@ -9,11 +9,21 @@ img {
     max-width: 100%;
 }
 
+/************************************************
+        COMMON
+ ************************************************/
+
+.wrapper-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #f0f7f6,  #DCDBD1, #DCDBD1 90%, #009688 10%);
+}
+
 .container-main {
     width: 80%;
-    margin: 0 auto;
-    margin-top: 30px;
-    min-height: 500px;
+    height: 90vh;
     /* degug */
     background-color: aquamarine;
 }
@@ -21,7 +31,6 @@ img {
 /************************************************
     UTILITIES
  ************************************************/
-
 .flex {
     display: flex;
 }
@@ -31,19 +40,18 @@ img {
 /* COMMON */
 .container-left,
 .header-main-profile {
-    width: 30%;
+    width: 300px;
 }
 
 .container-right,
 .header-user-chat {
-    width: 70%;
+    width: calc(100% - 300px);
 }
-
 
 /* ************************************************ */
 /* --------------- HEADER ------------------------ */
 header {
-    height: 40px;
+    height: 50px;
 }
 
 /* Header left */
@@ -59,7 +67,7 @@ header {
     background-color: lightgray;
 }
 
-/* ************************************************ */
+/* **************************************************** */
 /* ------- NOTIFICATIONS LEFT ------- */
 .notifications {
     height: 50px;
@@ -78,21 +86,20 @@ header {
     width: 100%;
     overflow: auto;
     /* debu */
-    height: calc(500px - 130px);
+    height: calc(90vh - 140px);
     background: peru;
 }
+/* **************************************************** */
 
 /* ----- CHAT RIGHT----- */
-
 .chat-right {
     overflow: auto;
     /* debug */   
    background-color: rgba(137, 43, 226, 0.541);
-   height: 420px;
+   height: calc(90vh - 90px);
 }
 
 /* ----- FOOTER (RIGHT)----- */
-
 .footer{
     height: 40px;
     background-color: blanchedalmond;
