@@ -183,13 +183,14 @@ header {
     background-color: #FAFAFA;
     height: 40px;
     padding: 5px;
+    padding-left: 10px;
 }
 
 .find {
-    border: 0;
+    border: 0.2px gray;
     padding: 5px 5px 5px 30px;
     font-size: 1rem;
-    width: 87%;
+    width: 90%;
 }
 
 .search-gray {
@@ -205,9 +206,20 @@ header {
 .chat-left {
     width: 100%;
     overflow: auto;
-    /* debu */
     height: calc(90vh - 140px);
-    background: peru;
+    /* background: peru; */
+
+}
+
+.card{
+    background-color: white;
+    
+    padding: 15px 10px 10px 10px;
+}
+
+.name{
+    font-size: 0.8rem;
+    padding-left: 6px;
 }
 
 /* **************************************************** */
@@ -251,10 +263,18 @@ header {
 
 .hours{
     font-size: 0.7rem;
+    color: gray;
 }
 .received{
     display: block;
 }
+.fa-chevron-down{
+    color: gray;
+}
+
+
+
+
 
 
 
