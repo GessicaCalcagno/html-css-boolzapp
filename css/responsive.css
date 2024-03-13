@@ -63,7 +63,6 @@
          width: calc(100% - 80px);
 
      }
-
  }
 
 
@@ -87,7 +86,8 @@
      /* *********************************************** */
      /* -- CHAT LEFT -- */
 
-     .container-left {
+     .container-left,
+     .icone-user {
          display: none;
      }
 
